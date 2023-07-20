@@ -1,0 +1,29 @@
+Pour exécuter la fonction, il vous suffit d'appeler la fonction avec les arguments souhaités. Voici comment faire :
+
+1. Ouvrir le fichier dans votre IDE préferer en copiant 
+2. Ouvrez un terminal ou une invite de commandes, puis accédez au répertoire où vous avez enregistré le fichier Python en utilisant la commande `cd` (Change Directory). Par exemple, si le fichier est dans le dossier `Documents`, entrez la commande suivante (pour Windows) :
+
+   ```
+   cd Documents
+   ```
+
+3. Pour exécuter le script Python, utilisez la commande `python` suivie du nom du fichier. Dans notre exemple, vous utiliserez la commande suivante :
+
+   ```
+   python calculer_somme.py
+   ```
+
+4. Appuyez sur la touche "Entrée" et le script sera exécuté. Il calculera la somme de 5 et 3 (comme indiqué dans l'exemple) et affichera le résultat :
+
+   ```
+   8
+   ```
+
+Vous pouvez modifier les arguments de la fonction `somme_deux_nombres` pour effectuer d'autres calculs. Par exemple, pour calculer la somme de 10 et 20, modifiez l'appel de la fonction comme suit :
+
+```python
+resultat = somme_deux_nombres(10, 20)
+print(resultat)  # Cela affichera 30
+```
+
+Et exécutez le script Python à nouveau pour obtenir le nouveau résultat.
